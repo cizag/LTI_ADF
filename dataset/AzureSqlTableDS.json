@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlTableDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Books"
+		}
+	}
+}

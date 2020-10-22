@@ -1,0 +1,29 @@
+{
+	"name": "BLOBds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage_DS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Book1.xlsx",
+				"container": "inputdata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	}
+}
